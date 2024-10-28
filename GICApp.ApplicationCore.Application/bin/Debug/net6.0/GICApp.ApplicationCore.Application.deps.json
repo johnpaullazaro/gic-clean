@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "GICApp.ApplicationCore.Application/1.0.0": {
+        "dependencies": {
+          "GICApp.ApplicationCore.Domain": "1.0.0"
+        },
+        "runtime": {
+          "GICApp.ApplicationCore.Application.dll": {}
+        }
+      },
+      "GICApp.ApplicationCore.Domain/1.0.0": {
+        "runtime": {
+          "GICApp.ApplicationCore.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "GICApp.ApplicationCore.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GICApp.ApplicationCore.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

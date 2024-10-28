@@ -1,0 +1,15 @@
+C:\Users\p0107433\source\repos\GICApp\GICApp.ApplicationCore.Application\bin\Debug\net6.0\GICApp.ApplicationCore.Application.deps.json
+C:\Users\p0107433\source\repos\GICApp\GICApp.ApplicationCore.Application\bin\Debug\net6.0\GICApp.ApplicationCore.Application.dll
+C:\Users\p0107433\source\repos\GICApp\GICApp.ApplicationCore.Application\bin\Debug\net6.0\GICApp.ApplicationCore.Application.pdb
+C:\Users\p0107433\source\repos\GICApp\GICApp.ApplicationCore.Application\bin\Debug\net6.0\GICApp.ApplicationCore.Domain.dll
+C:\Users\p0107433\source\repos\GICApp\GICApp.ApplicationCore.Application\bin\Debug\net6.0\GICApp.ApplicationCore.Domain.pdb
+C:\Users\p0107433\source\repos\GICApp\GICApp.ApplicationCore.Application\obj\Debug\net6.0\GICApp.ApplicationCore.Application.csproj.AssemblyReference.cache
+C:\Users\p0107433\source\repos\GICApp\GICApp.ApplicationCore.Application\obj\Debug\net6.0\GICApp.ApplicationCore.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\p0107433\source\repos\GICApp\GICApp.ApplicationCore.Application\obj\Debug\net6.0\GICApp.ApplicationCore.Application.AssemblyInfoInputs.cache
+C:\Users\p0107433\source\repos\GICApp\GICApp.ApplicationCore.Application\obj\Debug\net6.0\GICApp.ApplicationCore.Application.AssemblyInfo.cs
+C:\Users\p0107433\source\repos\GICApp\GICApp.ApplicationCore.Application\obj\Debug\net6.0\GICApp.ApplicationCore.Application.csproj.CoreCompileInputs.cache
+C:\Users\p0107433\source\repos\GICApp\GICApp.ApplicationCore.Application\obj\Debug\net6.0\GICApp.ApplicationCore.Application.csproj.CopyComplete
+C:\Users\p0107433\source\repos\GICApp\GICApp.ApplicationCore.Application\obj\Debug\net6.0\GICApp.ApplicationCore.Application.dll
+C:\Users\p0107433\source\repos\GICApp\GICApp.ApplicationCore.Application\obj\Debug\net6.0\refint\GICApp.ApplicationCore.Application.dll
+C:\Users\p0107433\source\repos\GICApp\GICApp.ApplicationCore.Application\obj\Debug\net6.0\GICApp.ApplicationCore.Application.pdb
+C:\Users\p0107433\source\repos\GICApp\GICApp.ApplicationCore.Application\obj\Debug\net6.0\ref\GICApp.ApplicationCore.Application.dll

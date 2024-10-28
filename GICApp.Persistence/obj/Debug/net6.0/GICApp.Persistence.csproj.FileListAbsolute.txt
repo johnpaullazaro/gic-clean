@@ -1,0 +1,17 @@
+C:\Users\p0107433\source\repos\GICApp\GICApp.Persistence\bin\Debug\net6.0\GICApp.Persistence.deps.json
+C:\Users\p0107433\source\repos\GICApp\GICApp.Persistence\bin\Debug\net6.0\GICApp.Persistence.runtimeconfig.json
+C:\Users\p0107433\source\repos\GICApp\GICApp.Persistence\bin\Debug\net6.0\GICApp.Persistence.dll
+C:\Users\p0107433\source\repos\GICApp\GICApp.Persistence\bin\Debug\net6.0\GICApp.Persistence.pdb
+C:\Users\p0107433\source\repos\GICApp\GICApp.Persistence\bin\Debug\net6.0\GICApp.ApplicationCore.Entities.dll
+C:\Users\p0107433\source\repos\GICApp\GICApp.Persistence\bin\Debug\net6.0\GICApp.ApplicationCore.Entities.pdb
+C:\Users\p0107433\source\repos\GICApp\GICApp.Persistence\obj\Debug\net6.0\GICApp.Persistence.csproj.AssemblyReference.cache
+C:\Users\p0107433\source\repos\GICApp\GICApp.Persistence\obj\Debug\net6.0\GICApp.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\p0107433\source\repos\GICApp\GICApp.Persistence\obj\Debug\net6.0\GICApp.Persistence.AssemblyInfoInputs.cache
+C:\Users\p0107433\source\repos\GICApp\GICApp.Persistence\obj\Debug\net6.0\GICApp.Persistence.AssemblyInfo.cs
+C:\Users\p0107433\source\repos\GICApp\GICApp.Persistence\obj\Debug\net6.0\GICApp.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\p0107433\source\repos\GICApp\GICApp.Persistence\obj\Debug\net6.0\GICApp.Persistence.csproj.CopyComplete
+C:\Users\p0107433\source\repos\GICApp\GICApp.Persistence\obj\Debug\net6.0\GICApp.Persistence.dll
+C:\Users\p0107433\source\repos\GICApp\GICApp.Persistence\obj\Debug\net6.0\refint\GICApp.Persistence.dll
+C:\Users\p0107433\source\repos\GICApp\GICApp.Persistence\obj\Debug\net6.0\GICApp.Persistence.pdb
+C:\Users\p0107433\source\repos\GICApp\GICApp.Persistence\obj\Debug\net6.0\GICApp.Persistence.genruntimeconfig.cache
+C:\Users\p0107433\source\repos\GICApp\GICApp.Persistence\obj\Debug\net6.0\ref\GICApp.Persistence.dll

@@ -1,0 +1,12 @@
+C:\Users\p0107433\source\repos\GICApp\GIC.Domain\bin\Debug\net6.0\GICApp.ApplicationCore.Entities.deps.json
+C:\Users\p0107433\source\repos\GICApp\GIC.Domain\bin\Debug\net6.0\GICApp.ApplicationCore.Entities.dll
+C:\Users\p0107433\source\repos\GICApp\GIC.Domain\bin\Debug\net6.0\GICApp.ApplicationCore.Entities.pdb
+C:\Users\p0107433\source\repos\GICApp\GIC.Domain\obj\Debug\net6.0\GICApp.ApplicationCore.Entities.csproj.AssemblyReference.cache
+C:\Users\p0107433\source\repos\GICApp\GIC.Domain\obj\Debug\net6.0\GICApp.ApplicationCore.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\p0107433\source\repos\GICApp\GIC.Domain\obj\Debug\net6.0\GICApp.ApplicationCore.Entities.AssemblyInfoInputs.cache
+C:\Users\p0107433\source\repos\GICApp\GIC.Domain\obj\Debug\net6.0\GICApp.ApplicationCore.Entities.AssemblyInfo.cs
+C:\Users\p0107433\source\repos\GICApp\GIC.Domain\obj\Debug\net6.0\GICApp.ApplicationCore.Entities.csproj.CoreCompileInputs.cache
+C:\Users\p0107433\source\repos\GICApp\GIC.Domain\obj\Debug\net6.0\GICApp.ApplicationCore.Entities.dll
+C:\Users\p0107433\source\repos\GICApp\GIC.Domain\obj\Debug\net6.0\refint\GICApp.ApplicationCore.Entities.dll
+C:\Users\p0107433\source\repos\GICApp\GIC.Domain\obj\Debug\net6.0\GICApp.ApplicationCore.Entities.pdb
+C:\Users\p0107433\source\repos\GICApp\GIC.Domain\obj\Debug\net6.0\ref\GICApp.ApplicationCore.Entities.dll
