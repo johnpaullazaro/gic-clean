@@ -18,21 +18,32 @@ namespace GICApp
          
         public static void Main(string[] args)
         {
-             
+
             bool exit = false;
 
             while (!exit)
             {
 
-                MenuManager.ShowMenu(); 
+                MenuManager.ShowMenu();
                 Console.Write("Please choose an option: ");
-                string input = Console.ReadLine(); 
+                string input = Console.ReadLine();
                 exit = MenuManager.HandleInput(input);
-                 
+
 
             }
-             
+
+
+
+
+
+
+
+
+
         } 
+
+
+        
       
     }
 }

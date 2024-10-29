@@ -170,9 +170,11 @@ namespace GICApp.Presentation
             var input_month = Console.ReadLine();
 
             var printStatementProcessor = new PrintStatementProcessor();
-            var items = printStatementProcessor.GetTransactionHistories(input_account)
+            var items = printStatementProcessor
+                         .GetTransactionHistories(input_account)
                          .Where(x => x.date.Year.ToString().Equals(input_year)  
-                                     && x.date.Month.ToString().Equals(input_month)); 
+                                     && x.date.Month.ToString().Equals(input_month))
+                         .OrderBy(x=> x.date); 
 
             if(items.Any())
             {

@@ -6,6 +6,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.SqlServer.Server;
 using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -14,6 +15,50 @@ namespace GICApp.Presentation.Processor
 {
     public class InterestRuleProcessor
     {
+
+        public InterestRule GetRuleItem(DateTime date)
+        {
+            //25
+
+            var gicService = GICServices.GetAll().GetService<IInterestRuleService>();
+            var getTransactionDay = date.Day;
+            var rules = gicService.GetAll().Result;
+            var item = new InterestRule();
+
+            //25
+           
+
+            var LastRule = rules.LastOrDefault();
+
+
+
+            //8  - 14
+            // 15 - 25
+            var prev = new InterestRule();
+            foreach ( var rule in rules )
+            {  
+                if (getTransactionDay <= rule.date.Day)
+                {
+                    prev = rule;
+                    break;
+                } 
+            }
+            
+            item = prev; 
+            int n = getTransactionDay; 
+            if (LastRule.date.Day < n)
+            {
+                item = LastRule;
+            }
+             
+            if (item != null )
+            {
+                return item; 
+            }
+            return null; 
+        }
+
+
 
         // 20241025 RULE03 2.30
 
