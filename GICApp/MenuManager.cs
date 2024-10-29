@@ -1,5 +1,6 @@
 ﻿using GICApp.ApplicationCore.Domain.Common;
 using GICApp.ApplicationCore.Domain.Entities;
+using GICApp.Presentation.Constants;
 using GICApp.Presentation.Processor;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using System;
@@ -31,8 +32,6 @@ namespace GICApp.Presentation
             switch (option)
             {
                 case "T":
-                    Console.WriteLine("=== Transaction ===");
-
                     BankAccountProcess();
 
                     break;
@@ -42,8 +41,7 @@ namespace GICApp.Presentation
                     InterestRuleProcess(); 
                     break;
                 case "P":
-                    Console.WriteLine("=== Print Statements ===");
-                    PrintStatementProcess();
+                     PrintStatementProcess();
 
                     break;
                 case " ":
@@ -67,6 +65,8 @@ namespace GICApp.Presentation
     
         public static void BankAccountProcess()
         {
+            Console.WriteLine("=== Transaction ===");
+
             // account, transaction, amount
             Console.WriteLine("Account Name"); 
             var input_account = Console.ReadLine();
@@ -169,20 +169,30 @@ namespace GICApp.Presentation
             Console.WriteLine("Month");
             var input_month = Console.ReadLine();
 
-            var printStatementProcessor = new PrintStatementProcessor();
-            var items = printStatementProcessor
-                         .GetTransactionHistories(input_account)
-                         .Where(x => x.date.Year.ToString().Equals(input_year)  
-                                     && x.date.Month.ToString().Equals(input_month))
-                         .OrderBy(x=> x.date); 
+            var interestRulesProcessor = new InterestRuleProcessor(); 
+            var items = interestRulesProcessor.GetInterestRules();
+              
 
-            if(items.Any())
+            if (items.Any())
             {
-                printStatementProcessor.PrintTransactionHistories(items); 
+                DisplayTransactionHistories(input_account);
+                interestRulesProcessor.DisplayInterestRules(items, input_account);
             }
-            Console.WriteLine("Not found");
+             
+
+        }
 
 
+        public static void DisplayTransactionHistories(string account)
+        {
+            var processor = new TransActionProcessor();
+            var items = processor.GetTransactionHistoriesByAccount(account);
+
+            foreach (var item in items)
+            {
+                Console.WriteLine($"  {item.date.ToString(SystemConstants.DateFormat)} | {item.TransactionId} | {(TransactionType)item.Type} | {item.Amount} | {item.Balance}");
+                 
+            }  
         }
     }
 }
